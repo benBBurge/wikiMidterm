@@ -1,19 +1,90 @@
-@media screen and (min-height: 768px) and (max-width: 1024px) { /*tablet format*/
-  #main-container {
-    font-size: 18px;
-  } /*ends main container*/
-  img {
-    width: 100%;
-    height: 100%;
-  } /*ends img*/
-} /*ends media query*/
+div.nav-bar {     /*div b4 class tells CSS we want to apply to whole div*/
+  float: left;
+  width: 150px;
+  height: 100%;
+  border-right: 2px dashed gray;
+  border-bottom: 2px dashed gray;
+}
 
-@media screen and (min-height: 320px) and (max-width: 420px) {  /*phone format*/
-  #main-container {
-    font-size: 15px;
-  }	/*ends main container*/
-  img {
-    width: 100%;
-    height: 100%;
-  }	/*ends img*/
-}	/*ends media query*/
+div.section1 {
+  padding-top: 20px;
+  margin-left: 175px;
+}
+
+div.section2 {
+  width: 250px;
+  margin-left: 175px;
+  border:2px solid #cb998f;
+  background-color: gray;
+}
+
+div.section3 {
+  margin-left: 175px;
+}
+
+div.section4 {
+  margin-left: 175px;
+}
+
+a {               /*link*/
+  color: cyan;
+}
+
+a:hover {         /*link:hover*/
+  color: green;
+}
+
+a:visited {       /*link:visited*/
+  color: #cb998f;
+}
+
+a.indie {         /*links for class "indie"*/
+  color: purple;
+}
+
+a.indie:hover {   /*these could also be toggled within the div, but this way we have more flexibility*/
+  color: blue;
+}
+
+a.indie:visited {
+  color: orange;
+}
+
+h1.indie {
+  font-size: 24px;
+  color: gray;
+}
+
+h2.indie {
+  font-size: 16px;
+  color: orange;
+}
+
+h1.cuphead {
+  font-size: 24px;
+  color: red;
+}
+
+h2.cuphead {
+  font-size: 16px;
+  color: blue;
+}
+
+.contents {
+  text-align: center;
+}
+
+#section5 {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+#left_side {
+  width: 500px;
+  float: left;
+}
+
+#right_side {
+  width: 500px;
+  float: right;
+}
